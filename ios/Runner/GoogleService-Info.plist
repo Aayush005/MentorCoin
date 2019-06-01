@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>190011470039-h37uu4fhltuo2p1cjgqbb7nh3v7fhgjc.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.190011470039-h37uu4fhltuo2p1cjgqbb7nh3v7fhgjc</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>190011470039-tb38raktth9fg4uqs3e70rhm2gllpmo0.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDpcXhGvfKS3h-yz6RpzOqMfg5vVTtQpsQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>190011470039</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>tech.aayush.fluttercoin</string>
+	<key>PROJECT_ID</key>
+	<string>mentorconnect-1c14f</string>
+	<key>STORAGE_BUCKET</key>
+	<string>mentorconnect-1c14f.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:190011470039:ios:6aaf4542950c16b3</string>
+	<key>DATABASE_URL</key>
+	<string>https://mentorconnect-1c14f.firebaseio.com</string>
+</dict>
+</plist>
