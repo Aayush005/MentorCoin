@@ -1,29 +1,44 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:fluttercoin/views/screens/phone_screen.dart';
+import 'package:instagram_clone/resources/repository.dart';
+import 'package:instagram_clone/ui/insta_home_screen.dart';
+import 'package:instagram_clone/ui/login_screen.dart';
+import 'package:instagram_clone/ui/phone_screen.dart';
 
-void main() => runApp(
-  MaterialApp(
-    title: 'MentorCoin',
-    darkTheme: ThemeData.dark(),
-    home: HomeScreen(),
-  )
-);
+void main() => runApp(MyApp());
 
-class HomeScreen extends StatefulWidget {
+class MyApp extends StatefulWidget {
   @override
-  _HomeScreenState createState() => _HomeScreenState();
-}
-
-class _HomeScreenState extends State<HomeScreen> {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: Colors.white70,
-      body: PhoneScreen()
-    );
+  MyAppState createState() {
+    return new MyAppState();
   }
 }
 
+class MyAppState extends State<MyApp> {
+  var _repository = Repository();
 
-
-
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+        title: 'Instagram',
+        debugShowCheckedModeBanner: false,
+        theme: new ThemeData(
+          
+            primarySwatch: Colors.blue,
+            primaryColor: Colors.black,
+            primaryIconTheme: IconThemeData(color: Colors.black),
+            primaryTextTheme: TextTheme(
+                title: TextStyle(color: Colors.black, fontFamily: "Aveny")),
+            textTheme: TextTheme(title: TextStyle(color: Colors.black))),
+        home: FutureBuilder(
+          future: _repository.getCurrentUser(),
+          builder: (context, AsyncSnapshot<FirebaseUser> snapshot) {
+            if (snapshot.hasData) {
+              return InstaHomeScreen();
+            } else {
+              return LoginScreen();
+            }
+          },
+        ));
+  }
+}

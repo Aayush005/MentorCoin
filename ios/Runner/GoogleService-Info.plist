@@ -3,23 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>190011470039-h37uu4fhltuo2p1cjgqbb7nh3v7fhgjc.apps.googleusercontent.com</string>
+	<string>350071662681-6uqu59qffe3vdhmv7csonmdtaim1lbvi.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.190011470039-h37uu4fhltuo2p1cjgqbb7nh3v7fhgjc</string>
+	<string>com.googleusercontent.apps.350071662681-6uqu59qffe3vdhmv7csonmdtaim1lbvi</string>
 	<key>ANDROID_CLIENT_ID</key>
-	<string>190011470039-tb38raktth9fg4uqs3e70rhm2gllpmo0.apps.googleusercontent.com</string>
+	<string>350071662681-4vf95eoka6geif0b9rhmg9npprvmu8sp.apps.googleusercontent.com</string>
 	<key>API_KEY</key>
-	<string>AIzaSyDpcXhGvfKS3h-yz6RpzOqMfg5vVTtQpsQ</string>
+	<string>AIzaSyCEN_KbIfH7GrRDMmU8I9iTsbAnA_oSD3U</string>
 	<key>GCM_SENDER_ID</key>
-	<string>190011470039</string>
+	<string>350071662681</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>tech.aayush.fluttercoin</string>
+	<string>com.example.blackgrape</string>
 	<key>PROJECT_ID</key>
-	<string>mentorconnect-1c14f</string>
+	<string>blackgrape-dd55e</string>
 	<key>STORAGE_BUCKET</key>
-	<string>mentorconnect-1c14f.appspot.com</string>
+	<string>blackgrape-dd55e.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -31,8 +31,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:190011470039:ios:6aaf4542950c16b3</string>
+	<string>1:350071662681:ios:39954f79f68e6f02</string>
 	<key>DATABASE_URL</key>
-	<string>https://mentorconnect-1c14f.firebaseio.com</string>
+	<string>https://blackgrape-dd55e.firebaseio.com</string>
 </dict>
 </plist>
