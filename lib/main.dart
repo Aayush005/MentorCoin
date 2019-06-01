@@ -1,7 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:instagram_clone/resources/repository.dart';
-import 'package:instagram_clone/ui/insta_home_screen.dart';
+import 'package:instagram_clone/ui/home_screen.dart';
 import 'package:instagram_clone/ui/login_screen.dart';
 import 'package:instagram_clone/ui/phone_screen.dart';
 

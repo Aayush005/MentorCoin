@@ -11,7 +11,7 @@ import 'package:instagram_clone/models/user.dart';
 import 'package:instagram_clone/resources/repository.dart';
 import 'package:instagram_clone/ui/chat_screen.dart';
 import 'package:instagram_clone/ui/comments_screen.dart';
-import 'package:instagram_clone/ui/insta_friend_profile_screen.dart';
+import 'package:instagram_clone/ui/friend_profile.dart';
 import 'package:instagram_clone/ui/likes_screen.dart';
 import 'package:medium_clap_flutter/medium_clap_flutter.dart';
 

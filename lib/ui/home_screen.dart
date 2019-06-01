@@ -4,14 +4,14 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:instagram_clone/models/user.dart';
 import 'package:instagram_clone/resources/repository.dart';
-import 'package:instagram_clone/ui/insta_activity_screen.dart';
-import 'package:instagram_clone/ui/insta_add_screen.dart';
-import 'package:instagram_clone/ui/insta_feed_screen.dart';
-import 'package:instagram_clone/ui/insta_friend_profile_screen.dart';
-import 'package:instagram_clone/ui/insta_profile_screen.dart';
+import 'package:instagram_clone/ui/activity_screen.dart';
+import 'package:instagram_clone/ui/add_screen.dart';
+import 'package:instagram_clone/ui/feed_screen.dart';
+import 'package:instagram_clone/ui/friend_profile.dart';
+import 'package:instagram_clone/ui/profile_screen.dart';
 
 import 'acheivements_screen.dart';
-import 'insta_search_screen.dart';
+import 'screen_screen.dart';
 
 
 class InstaHomeScreen extends StatefulWidget {

@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:instagram_clone/models/user.dart';
 import 'package:instagram_clone/resources/repository.dart';
 
-import 'insta_home_screen.dart';
+import 'home_screen.dart';
 
 class OtpScreen extends StatefulWidget {
   @override

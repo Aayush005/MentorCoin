@@ -33,6 +33,7 @@ dependencies:
   cached_network_image: ^0.7.0
   image:
   medium_clap_flutter:
+  curved_navigation_bar:
 
 
 dev_dependencies:

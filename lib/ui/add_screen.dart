@@ -3,7 +3,7 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:instagram_clone/ui/insta_upload_photo_screen.dart';
+import 'package:instagram_clone/ui/upload_screen.dart';
 
 class InstaAddScreen extends StatefulWidget {
   @override

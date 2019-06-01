@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'insta_home_screen.dart';
+import 'home_screen.dart';
 
 
 class PhoneScreen extends StatefulWidget {

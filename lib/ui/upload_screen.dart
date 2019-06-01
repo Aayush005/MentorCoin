@@ -2,7 +2,7 @@ import 'dart:async';
 import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:instagram_clone/resources/repository.dart';
-import 'package:instagram_clone/ui/insta_home_screen.dart';
+import 'package:instagram_clone/ui/home_screen.dart';
 import 'package:location/location.dart';
 import 'package:flutter/services.dart';
 import 'package:geocoder/geocoder.dart';
